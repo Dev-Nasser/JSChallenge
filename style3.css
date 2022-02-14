@@ -1,0 +1,14 @@
+body{
+
+    background-image: url("montanhas-grandes-wallpaper.jpg");
+
+}
+
+
+#input-nome{
+    display: flex;
+    margin: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,51 @@
+body{
+    background-image: url('real.jpg');
+    
+}
+
+background-image{
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+#input{
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px;
+
+}
+
+#input-nome{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#enviarnome{
+    width: 140px;
+    margin: 10px;
+
+
+
+}
+
+#texto{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#enviar{
+    width: 60px;
+    height: 50px;
+    background: white;
+       
+}

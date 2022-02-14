@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(218, 231, 250);
+
+
+}
+
+#corpo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-style: solid;
+    border-color: 5px;
+
+}
+
+#nome{
+    width:150px;
+
+
+} 
+
+#Idade{
+    width:150px;
+
+
+
+
+}
+
+#linguagem{
+    width:150px;
+
+}
+
+#botao{
+    padding: 5px;
+    margin-bottom: 4px;
+    background-color: rgb(169, 163, 218);
+}

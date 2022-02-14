@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+  
+#cabecalho{
+    width: 100%;
+    height: 50px;
+    background-color: #563d7c;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}  
+
+
+#menu-redes{
+    margin-bottom: 12px;
+
+}
+
+#icones-redes{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#botao{
+    width: 500px;
+    color: #563d7c;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+
+#nome {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    margin-right: 20px;
+    color: white;
+    
+    
+}
