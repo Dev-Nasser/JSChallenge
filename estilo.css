@@ -6,7 +6,7 @@ body{
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 30px;
 }
   
 #cabecalho{
@@ -40,7 +40,7 @@ h1{
 }
 
 #botao{
-    width: 500px;
+    width: 300px;
     color: #563d7c;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 30px;
@@ -54,5 +54,61 @@ h1{
     margin-right: 20px;
     color: white;
     
+    
+}
+#centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+
+}
+
+@media screen and (max-width: 390px){
+    h1{
+        font-size: 15px;
+        display: flex;
+        align-self: center;
+    }
+    
+    #cabecalho{
+        width: 100%;
+        height: 50px;
+        background-color: #563d7c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #nome{
+        font-size: 25px;
+        font-family: 'Pacifico', cursive;
+        color: white;
+    }
+
+    #centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 13%
+
+
+    
+
+    }
+
+    #menu-redes{
+   
+        display: none;
+
+    }
+
+    #botao{
+        width: 120px
+
+
+    }
+
     
 }
