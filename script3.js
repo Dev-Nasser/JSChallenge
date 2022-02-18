@@ -1,8 +1,11 @@
 function nometamanho(){
-    const nome = document.getElementById("nomeusuario").value 
-    let esp = nome.match(" ").length
-    let letras = nome.length - esp
-    alert(`A sua frase tem ${letras} letras e ${esp + 1} palavras`)
+    let nome = document.getElementById("nomeusuario").value 
+    let letras = nome.length;
+    let palavras= nome.split(' ').length;
+
+
+
+    alert(`A sua frase tem ${letras} letras e  ${palavras} palavras`)
 
 
 }
