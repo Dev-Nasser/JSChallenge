@@ -7,8 +7,16 @@ body{
 
 #input-nome{
     display: flex;
-    margin: 200px;
+    margin: 300px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#enviarnome{
+    margin-top: 30px;
+    color: rgb(94, 94, 141);
+    background-color: rgb(218, 209, 209);
+    padding: 4px;
+
 }
