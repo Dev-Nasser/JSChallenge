@@ -1,8 +1,5 @@
-body{
-    background-color: rgb(218, 231, 250);
 
 
-}
 
 #corpo{
 
@@ -12,7 +9,8 @@ body{
     flex-direction: column;
     width: 100%;
     border-style: solid;
-    border-color: 5px;
+    border-color: black;
+    color: rgb(44, 41, 41);
 
 }
 
